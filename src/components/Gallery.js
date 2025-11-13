@@ -3,34 +3,43 @@ import "./../App.css";
 
 const Gallery = () => {
   const images = [
-    { src: "https://images.unsplash.com/photo-1503457574461-2d5c2d1aab60?w=300", alt: "Kids celebration" },
-    { src: "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?w=300", alt: "School fun" },
-    { src: "https://images.unsplash.com/photo-1502767089025-6572583495b4?w=300", alt: "Children laughing" },
-    { src: "https://images.unsplash.com/photo-1504274066651-8d31a536b11a?w=300", alt: "Kids playing" },
-    { src: "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee?w=300", alt: "Smiling kids" },
-    { src: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=300", alt: "Children painting" },
-    { src: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=300", alt: "Friends together" },
-    { src: "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=300", alt: "Happy kids" },
-    { src: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=300", alt: "Child enjoying nature" },
-    { src: "https://images.unsplash.com/photo-1597439102946-3b6b5b5bcb3b?w=300", alt: "Child drawing" },
+  
+    { src: "/images/photo1.jpg", alt: "Kids playing outdoors" },
+    { src: "/images/photo2.jpg", alt: "Happy children laughing" },
+    { src: "/images/photo3.jpg", alt: "Friends together" },
+    { src: "/images/photo4.jpg", alt: "Children smiling" },
+    { src: "/images/photo5.jpg", alt: "Drawing children" },
+    { src: "/images/photo6.jpg", alt: "Smiling kids" },
+    { src: "/images/photo7.jpg", alt: "Kids celebration" },
+    { src: "/images/photo8.jpg", alt: "School friends" },
+    { src: "/images/photo9.jpg", alt: "Child painting" },
+    { src: "/images/photo10.jpg", alt: "Children party" },
+    { src: "/images/photo11.jpg", alt: "Children running" },
+    { src: "/images/photo12.jpg", alt: "Kids with balloons" },
   ];
 
-  return (
-    <div className="gallery">
-      <h2>Children’s Day Memories 📸</h2>
-      <p>Beautiful memories of laughter, friendship, and happiness!</p>
 
-      <div className="gallery-grid">
-        {images.map((img, index) => (
-          <img key={index} src={img.src} alt={img.alt} className="gallery-img" />
-        ))}
+  return (
+    <div className="gallery-page">
+      <div className="overlay">
+        <h2 className="gallery-title">Children’s Day Memories 📸</h2>
+        <p className="gallery-subtitle">
+          Beautiful memories of laughter, friendship, and happiness!
+            Let’s relive the magic of laughter, fun, and innocent smiles! 💖
+
+        </p>
+
+        <div className="gallery-grid">
+          {images.map((img, index) => (
+            <img key={index} src={img.src} alt={img.alt} className="gallery-img" />
+          ))}
+        </div>
       </div>
     </div>
   );
 };
 
 export default Gallery;
-
 // import React from "react";
 
 // const Gallery = () => {
