@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shital_project/static/css/main.82ba614d.css",
+    "main.js": "/shital_project/static/js/main.22f4a178.js",
+    "static/js/453.189c33f2.chunk.js": "/shital_project/static/js/453.189c33f2.chunk.js",
+    "index.html": "/shital_project/index.html",
+    "main.82ba614d.css.map": "/shital_project/static/css/main.82ba614d.css.map",
+    "main.22f4a178.js.map": "/shital_project/static/js/main.22f4a178.js.map",
+    "453.189c33f2.chunk.js.map": "/shital_project/static/js/453.189c33f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82ba614d.css",
+    "static/js/main.22f4a178.js"
+  ]
+}
