@@ -2,7 +2,8 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(180deg, #934771, #ffe5ec);
+  background: linear-gradient(180deg, #b472e6, #ffe5ec);
+  background-image: url(C:\Users\Omkar\Desktop\Shital_react\child-day\public\images\photot3.jpg);
 }
 
 .App {
@@ -12,7 +13,7 @@ body {
 /* Header */
 .header {
   background-color: #8ce3cf;
-  color: white;
+  color: rgb(128, 111, 111);
   padding: 20px;
   border-radius: 0 0 20px 20px;
 }
@@ -79,7 +80,8 @@ body {
 
 /* Quotes */
 .quotes {
-  background: #102433;
+  background: #815265;
+  
   padding: 40px;
   border-radius: 20px;
   width: 80%;
@@ -89,13 +91,13 @@ body {
 
 .quotes p {
   font-style: italic;
-  color: #2c90c6;
+  color: #091217;
   margin: 15px 0;
 }
 
 
 .gallery-page {
-  background-image: url("https://i.ibb.co/DrFwHYM/children-day-bg.jpg");
+  background-image: url("C:\Users\Omkar\Desktop\Shital_react\child-day\public\images\photo4.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -129,7 +131,7 @@ body {
 .gallery-subtitle {
   font-size: 1.2rem;
   margin-bottom: 30px;
-  color: #fff5cc;
+  color: #010100;
 }
 
 .gallery-grid {
@@ -137,21 +139,23 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   justify-items: center;
+  background-image: url(C:\Users\Omkar\Desktop\Shital_react\child-day\public\images\photo8.jpg);
 }
 
 .gallery-img {
+  
   width: 100%;
   max-width: 250px;
   height: 180px;
   object-fit: cover;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(10, 6, 6, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .gallery-img:hover {
   transform: scale(1.07);
-  box-shadow: 0 6px 18px rgba(255, 255, 255, 0.6);
+  box-shadow: 0 6px 18px rgba(20, 13, 13, 0.6);
 }
 
 .dreams-section {
@@ -167,7 +171,7 @@ body {
 }
 
 .dreams-section p {
-  color: #555;
+  color: #220404;
   margin-bottom: 30px;
   font-size: 16px;
 }
@@ -180,7 +184,7 @@ body {
 }
 
 .dream-card {
-  background-color: #fff;
+  background-color: #c0a7b6;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -194,19 +198,19 @@ body {
 }
 
 .dream-card h3 {
-  color: #ff5722;
+  color:  #977165;
   font-size: 20px;
   margin-bottom: 8px;
 }
 
 .dream-card h4 {
-  color: #333;
+  color: #7a1c99;
   font-size: 18px;
   margin-bottom: 10px;
 }
 
 .dream-card p {
-  color: #666;
+  color: #100505;
   font-size: 15px;
   line-height: 1.5;
 }

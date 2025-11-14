@@ -2,37 +2,29 @@ import React from "react";
 import "./../App.css";
 
 const Gallery = () => {
-  const images = [
-  
-    { src: "/images/photo1.jpg", alt: "Kids playing outdoors" },
-    { src: "/images/photo2.jpg", alt: "Happy children laughing" },
-    { src: "/images/photo3.jpg", alt: "Friends together" },
-    { src: "/images/photo4.jpg", alt: "Children smiling" },
-    { src: "/images/photo5.jpg", alt: "Drawing children" },
-    { src: "/images/photo6.jpg", alt: "Smiling kids" },
-    { src: "/images/photo7.jpg", alt: "Kids celebration" },
-    { src: "/images/photo8.jpg", alt: "School friends" },
-    { src: "/images/photo9.jpg", alt: "Child painting" },
-    { src: "/images/photo10.jpg", alt: "Children party" },
-    { src: "/images/photo11.jpg", alt: "Children running" },
-    { src: "/images/photo12.jpg", alt: "Kids with balloons" },
-  ];
-
-
   return (
     <div className="gallery-page">
       <div className="overlay">
         <h2 className="gallery-title">Children’s Day Memories 📸</h2>
         <p className="gallery-subtitle">
           Beautiful memories of laughter, friendship, and happiness!
-            Let’s relive the magic of laughter, fun, and innocent smiles! 💖
-
+          Let’s relive the magic of laughter, fun, and innocent smiles! 💖
         </p>
 
         <div className="gallery-grid">
-          {images.map((img, index) => (
-            <img key={index} src={img.src} alt={img.alt} className="gallery-img" />
-          ))}
+          
+          <img src="public/images/outdoors.jpg" alt="Kids playing outdoors" className="gallery-img" />
+          <img src="public/images/photo2.jpg" alt="Happy children laughing" className="gallery-img" />
+          <img src="public/images/photo4.jpg" alt="Friends together" className="gallery-img" />
+          <img src="public/images/photot3.jpg" alt="Children smiling" className="gallery-img" />
+          <img src="public/images/photo5.jpg" alt="Drawing children" className="gallery-img" />
+          <img src="public/images/photo6.jpg" alt="Smiling kids" className="gallery-img" />
+          <img src="public/images/photo7.jpg" alt="Kids celebration" className="gallery-img" />
+          <img src="public/images/photo8.jpg" alt="School friends" className="gallery-img" />
+          <img src="public/images/photo9.jpg" alt="Child painting" className="gallery-img" />
+          <img src="public/G1.png" alt="Children party" className="gallery-img" />
+          <img src="public/G2.png" alt="Children running" className="gallery-img" />
+          <img src="public/photo1.jpg" alt="Kids with balloons" className="gallery-img" />
         </div>
       </div>
     </div>
@@ -40,6 +32,49 @@ const Gallery = () => {
 };
 
 export default Gallery;
+
+// import React from "react";
+// import "./../App.css";
+
+// const Gallery = () => {
+//   const images = [
+  
+//     { src: "public/images/outdoors.jpg", alt: "Kids playing outdoors" },
+//     { src: "public/images/photo2.jpg", alt: "Happy children laughing" },
+//     { src: "/images/photo3.jpg", alt: "Friends together" },
+//     { src: "/images/photo4.jpg", alt: "Children smiling" },
+//     { src: "/images/photo5.jpg", alt: "Drawing children" },
+//     { src: "/images/photo6.jpg", alt: "Smiling kids" },
+//     { src: "/images/photo7.jpg", alt: "Kids celebration" },
+//     { src: "/images/photo8.jpg", alt: "School friends" },
+//     { src: "/images/photo9.jpg", alt: "Child painting" },
+//     { src: "/images/photo10.jpg", alt: "Children party" },
+//     { src: "/images/photo11.jpg", alt: "Children running" },
+//     { src: "/images/photo12.jpg", alt: "Kids with balloons" },
+//   ];
+
+
+//   return (
+//     <div className="gallery-page">
+//       <div className="overlay">
+//         <h2 className="gallery-title">Children’s Day Memories 📸</h2>
+//         <p className="gallery-subtitle">
+//           Beautiful memories of laughter, friendship, and happiness!
+//             Let’s relive the magic of laughter, fun, and innocent smiles! 💖
+
+//         </p>
+
+//         <div className="gallery-grid">
+//           {images.map((img, index) => (
+//             <img key={index} src={img.src} alt={img.alt} className="gallery-img" />
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Gallery;
 // import React from "react";
 
 // const Gallery = () => {
