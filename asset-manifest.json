@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/shital_project/static/css/main.1d7b106d.css",
-    "main.js": "/shital_project/static/js/main.94921b68.js",
+    "main.css": "/shital_project/static/css/main.699a778a.css",
+    "main.js": "/shital_project/static/js/main.2948e946.js",
     "static/js/453.189c33f2.chunk.js": "/shital_project/static/js/453.189c33f2.chunk.js",
+    "static/media/photot3.jpg": "/shital_project/static/media/photot3.86ce26c80c5abdfe5954.jpg",
+    "static/media/photo8.jpg": "/shital_project/static/media/photo8.71055122e91be48a7ad8.jpg",
+    "static/media/photo4.jpg": "/shital_project/static/media/photo4.459e443c846c92926704.jpg",
     "index.html": "/shital_project/index.html",
-    "main.1d7b106d.css.map": "/shital_project/static/css/main.1d7b106d.css.map",
-    "main.94921b68.js.map": "/shital_project/static/js/main.94921b68.js.map",
+    "main.699a778a.css.map": "/shital_project/static/css/main.699a778a.css.map",
+    "main.2948e946.js.map": "/shital_project/static/js/main.2948e946.js.map",
     "453.189c33f2.chunk.js.map": "/shital_project/static/js/453.189c33f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d7b106d.css",
-    "static/js/main.94921b68.js"
+    "static/css/main.699a778a.css",
+    "static/js/main.2948e946.js"
   ]
 }
